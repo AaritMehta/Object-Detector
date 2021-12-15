@@ -1,0 +1,50 @@
+body {
+    background-size: cover;
+    background-position: center;
+}
+
+.heading {
+    font-size: 30px;
+    width: 100%;
+    height: 45px;
+    margin: 0px;
+    background: skyblue;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Lobster Two', cursive;
+}
+
+#status {
+    font-size: 18px;
+    font-family: 'Lobster Two', cursive;
+    margin-left: 80px;
+}
+
+canvas {
+    border-width: 10px;
+    border-radius: 5px;
+    border-color: black;
+}
+
+.heading:hover {
+    color: yellow;
+}
+
+#status:hover {
+    color: blue;
+}
+
+.go_back {
+    float: right;
+    border-radius: 5px;
+    color: white;
+    background: mediumpurple;
+    width: 100px;
+    height: 35px;
+    font-size: 20px;
+    font-family: 'Lobster Two', cursive;
+}
+
+.go_back:hover {
+    color: yellow;
+}
